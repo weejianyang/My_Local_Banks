@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/contract"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvdbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.5"
+        android:gravity="center"
+        android:text="@string/tvdbs"
+        android:textColor="#E10E0E"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tvocbc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.5"
+        android:gravity="center"
+        android:text="@string/tvocbc"
+        android:textColor="#F10F0F"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tvuob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.5"
+        android:gravity="center"
+        android:text="@string/tvuob"
+        android:textColor="#FD0707"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible" />
+
+</LinearLayout>
